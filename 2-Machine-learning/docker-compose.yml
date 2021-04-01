@@ -1,0 +1,13 @@
+version: "3"
+services:
+   lab:
+      build:
+         context: .
+         dockerfile: Dockerfile
+      container_name: ML-lab
+      hostname: '127.0.0.1'
+      ports:
+         - "8888:8888"
+      volumes:
+         - ./src:/root/notebooks/
+
