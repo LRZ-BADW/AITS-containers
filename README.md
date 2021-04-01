@@ -6,7 +6,7 @@ date: \today
 
 # Hands-on 1: Your first steps with containers
 
-**Intent**: Understand the basics of images and containers
+**Aim**: Understand the basics of images and containers
 
 **Tasks**:
 
@@ -18,7 +18,9 @@ date: \today
 
 # Hands-on 2: Design your own image and container
 
-**Intent**: Use the theory we've seen and create an image that will be a development environment for Machine Learning with Jupyter lab and tensorflow installed and configured. Create a volume that will host files for training a model.
+**Aim**: Use the theory we've seen and create an image that will be a development environment for Machine Learning with Jupyter lab and tensorflow installed and configured. Create a volume that will host files for training a model/the output.
+
+This will certainly take advantage of a [tensorflow tutorial notebook](https://github.com/tensorflow/docs/tree/master/site/en/tutorials)
 
 **Task**:
 
@@ -35,7 +37,7 @@ tbd.
 
 # Hands-on 4: Enable biomedical reproducible workflow with contain- ers and Nextflow
 
-**Intent**: Abstract containers and use nextflow for RNAseq analysis with Salomon and multiQC.
+**Aim**: Abstract containers and use nextflow for RNAseq analysis with Salmon and multiQC.
 
 **Task**:
 
