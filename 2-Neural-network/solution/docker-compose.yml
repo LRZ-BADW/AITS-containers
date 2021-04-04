@@ -4,10 +4,10 @@ services:
       build:
          context: .
          dockerfile: Dockerfile
-      container_name: ML-lab
-      hostname: '127.0.0.1'
+      container_name: ANN-Dream
+      hostname: Jupyter
       ports:
-         - "8888:8888"
+         - 8888:8888
       volumes:
-         - ./src:/root/notebooks/
+         - ./images:/root/notebooks/images
 
