@@ -18,6 +18,7 @@ Feel free to experiment with these commands:
 - hostname
 - uname -a
 - ps aux
+- Execute commands in the containers and explore
 - exit / ctrl-D / ctrl-P ctrl-Q
 
 > Try common UN*X commands in your shell: ls, cd, pwd... Are some of them missing? Is it a bug or feature of containers? Of Alpine?
