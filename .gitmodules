@@ -1,0 +1,3 @@
+[submodule "4-Reproducible-workflows/question"]
+	path = 4-Reproducible-workflows/question
+	url = https://github.com/nextflow-io/rnaseq-nf.git
