@@ -1,3 +1,3 @@
 #!/bin/sh
 
-eval docker-compose build
+docker build . -t "ann-dream-solution"
