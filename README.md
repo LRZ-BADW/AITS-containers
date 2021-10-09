@@ -12,7 +12,7 @@ date: \today
   - [Aim](#aim-1)
   - [Tasks](#tasks-1)
   - [Notes for instructor](#notes-for-instructor-1)
-- [Hands-on 3: Containers and HPC with Charliecloud](#hands-on-3-containers-and-hpc-with-charliecloud)
+- [Hands-on 3: Containers and HPC](#hands-on-3-containers-and-hpc)
   - [Aim](#aim-2)
   - [Tasks](#tasks-2)
   - [Note for instructor](#note-for-instructor)
@@ -20,6 +20,22 @@ date: \today
   - [Aim](#aim-3)
   - [Tasks](#tasks-3)
   - [Note for instructor](#note-for-instructor-1)
+
+
+```txt
+.
+├── 1-First-steps
+│   └── README.md
+├── 2-Neural-network
+│   ├── question
+│   └── solution_locked
+├── 3-HPC
+│   └── solution_locked
+└── 4-Reproducible-workflows
+    ├── README.md
+    ├── question
+    └── solution_locked
+```
 
 # Hands-on 1: Your first steps with containers
 
@@ -59,11 +75,11 @@ Use the theory we've seen and create an image that will be a development environ
 - Additional images available
   - https://doku.lrz.de/download/attachments/74383481/mignon.jpeg
 
-# Hands-on 3: Containers and HPC with Charliecloud
+# Hands-on 3: Containers and HPC
 
 ## Aim
 
-Make use of Charliecloud commands and compare Docker and Charliecloud images.
+Make use of enroot and Charliecloud commands and compare Docker and Charliecloud images.
 
 ## Tasks
 

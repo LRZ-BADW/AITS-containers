@@ -3,7 +3,6 @@ Feel free to experiment with these commands:
 - docker -v
 - docker ps
 - docker image ls
-- docker image ls
 - docker pull hello-world
 - docker image ls
 - docker run hello-world
