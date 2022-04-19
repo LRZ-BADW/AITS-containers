@@ -11,31 +11,12 @@ date: \today
 - [Hands-on 2: Design your own image and container](#hands-on-2-design-your-own-image-and-container)
   - [Aim](#aim-1)
   - [Tasks](#tasks-1)
-  - [Notes for instructor](#notes-for-instructor-1)
 - [Hands-on 3: Containers and HPC](#hands-on-3-containers-and-hpc)
   - [Aim](#aim-2)
   - [Tasks](#tasks-2)
-  - [Note for instructor](#note-for-instructor)
 - [Hands-on 4: Enable biomedical reproducible workflow with contain- ers and Nextflow](#hands-on-4-enable-biomedical-reproducible-workflow-with-contain--ers-and-nextflow)
   - [Aim](#aim-3)
   - [Tasks](#tasks-3)
-  - [Note for instructor](#note-for-instructor-1)
-
-
-```txt
-.
-├── 1-First-steps
-│   └── README.md
-├── 2-Neural-network
-│   ├── question
-│   └── solution_locked
-├── 3-HPC
-│   └── solution_locked
-└── 4-Reproducible-workflows
-    ├── README.md
-    ├── question
-    └── solution_locked
-```
 
 # Hands-on 1: Your first steps with containers
 
@@ -68,10 +49,6 @@ Use the theory we've seen and create an image that will be a development environ
 - Expose the proper port
 - Build the image and run the container
 - Access the web UI and run the python code
-
-## Notes for instructor
-
-- To unlock solution, password is: `bmw-m5-e34`
 - Additional images available
   - https://doku.lrz.de/download/attachments/74383481/mignon.jpeg
 
@@ -88,11 +65,6 @@ Make use of enroot and Charliecloud commands and compare Docker and Charliecloud
 - Same with charliecloud
 - Compare the content (`du -sh`, `tree`, `diff`...)
 
-## Note for instructor
-
-- To unlock solution, password is: `datsun-240z`
-- Do not spend too much time on it
-
 # Hands-on 4: Enable biomedical reproducible workflow with contain- ers and Nextflow
 
 ## Aim 
@@ -105,7 +77,3 @@ Abstract containers and use nextflow for RNA-seq analysis with Salmon and multiQ
 - Give a quick look to the logs
 - Download the HTML report
 - Read the results
-
-## Note for instructor
-
-- To unlock solution, password is: `alpine-berlinette`
