@@ -2,7 +2,6 @@
 # and adhere to best practices
 FROM ubuntu:bionic
 
-LABEL date="October 2021"
 LABEL description="Solution for the second hands-on / module on containers"
 
 RUN apt-get update \
