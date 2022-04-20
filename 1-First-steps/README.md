@@ -1,3 +1,5 @@
+# Hands-on 1: First steps with Docker
+
 Feel free to experiment with these commands:
 
 - docker -v

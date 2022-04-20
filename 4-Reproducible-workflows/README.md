@@ -1,6 +1,8 @@
+# Hands-on 4: Reproducible pipelines with containers
+
 Question: 
 
-- The pipeline and datasets for RNA-Seq
+- Run the Nextflow pipeline with the docker provider and generate the results
 
 Solution:
 
