@@ -12,7 +12,7 @@ docker save -o tensorflow-docker.tar tensorflow/tensorflow
 mkdir tensorflow-docker \
 	&& tar xvf tensorflow-docker.tar --directory tensorflow-docker \
 	&& rm tensorflow-docker.tar
-	
+
 # ------ #
 # ENROOT #
 # ------ #
@@ -29,7 +29,8 @@ unsquashfs tensorflow+tensorflow.sqsh \
 # ------------ #
 
 # We reate a charliecloud image in the current directory...
-ch-pull2tar tensorflow/tensorflow .
+ch-image pull tensorflow/tensorflow
+ch-convert tensorflow/tensorflow tensorflow%tensorflow.tar.gz
 # ... and expand it
 mkdir tensorflow-charlie \
 	&& tar xvf tensorflow%tensorflow.tar.gz --directory tensorflow-charlie \

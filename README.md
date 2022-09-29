@@ -4,6 +4,7 @@ author: Florent Dufour
 date: \today
 ---
 
+[Hands-on 1: Your first steps with containers](#hands-on-1-your-first-steps-with-containers)
 - [Hands-on 1: Your first steps with containers](#hands-on-1-your-first-steps-with-containers)
   - [Aim](#aim)
   - [Tasks](#tasks)
@@ -18,6 +19,7 @@ date: \today
   - [Aim](#aim-3)
   - [Tasks](#tasks-3)
 
+
 # Hands-on 1: Your first steps with containers
 
 ## Aim 
@@ -29,6 +31,7 @@ Understand the basics of images and containers
 - Try some Docker commands (`docker -v`, `dcoker ps`, `docker image ls`)
 - Run the hello-world image
 - Run a container interactively (Alpine)
+- Show running processes
 - Explore the file system within the container, create files, compare to the host file system
 - Show volatility of containers (create files and restrart container, `rm -rf /*`)
 
