@@ -25,7 +25,8 @@ Feel free to experiment with these commands:
 - `hostname`: I'm in the container
 - `uname -a`: The container is on the host
 - `ps aux`: No OS is running / PID 1 is not init: but the bash!
-- Execute commands in the containers and explore
+- Execute commands in the containers and explore fs
+- Show volatility: `echo "Servus! Bonjour! ¡Hola! Hello!" > hello.txt`
 - exit / ctrl-D / ctrl-P ctrl-Q
 
 ## Going further in alpine
