@@ -10,6 +10,7 @@ Feel free to experiment with these commands:
 - `docker pull hello-world`: Pull from hub
 - `docker image ls`: hello-world is available locally now
 - `docker run hello-world`: Understand what it is saying?
+- Visit `https://hub.docker.com` or use `docker search` to find images
 
 ## Run alpine interactively
 
