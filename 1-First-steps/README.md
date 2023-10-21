@@ -5,8 +5,9 @@ Feel free to experiment with these commands:
 ## Run hello world
 
 - `docker -v`: Version, install is OK
+- `docker -h`: Read the help
 - `docker ps`: No running container
-- `docker image ls`: No image on the system
+- `docker image ls`: Are some image available on the system
 - `docker pull hello-world`: Pull from hub
 - `docker image ls`: hello-world is available locally now
 - `docker run hello-world`: Understand what it is saying?
@@ -26,14 +27,14 @@ Feel free to experiment with these commands:
 - `hostname`: I'm in the container
 - `uname -a`: The container is on the host
 - `ps aux`: No OS is running / PID 1 is not init: but the bash!
-- Execute commands in the containers and explore fs
+- Execute commands in the containers and explore fle system
 - Show volatility: `echo "Servus! Bonjour! ¡Hola! Hello!" > hello.txt`
 - exit / ctrl-D / ctrl-P ctrl-Q
 
 ## Going further in alpine
 
-- Try common UN\*X commands in your shell: ls, cd, pwd... Are some of them missing? Is it a bug or feature of containers? Of Alpine?
+- Try common UN*X commands in your shell: `ls`, `cd`, `pwd`... Are some of them missing? Is it a bug or feature of containers? Of Alpine?
 - Going further: Use the apk package manager to find and install addition packages. How about man, python, htop, neofetch for example?
 - Explore the filesystem around you. Can you see files from the host system?
 - Create a file, for example via : echo "Servus! Bonjour! ¡Hola! Hello!" > hello.txt. Exit the container and start it again. Is the file still here?
-- Would you dare executing rm -rf /\* in the container. What happens? Exit the container and start it again? What happened?
+- Would you dare executing `rm -rf /*` in the container. What happens? Exit the container and start it again? What happened?
