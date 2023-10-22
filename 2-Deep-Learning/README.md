@@ -14,4 +14,4 @@ In the Question, we provide a jupyter notebook. You need to build a Docker image
 
 ## Solution
 
-In the solution, we provide a Dockerfile and a Makefile to help you build the image and run the container.
+In the solution, we provide a Dockerfile and a Makefile to help you build the image and run the container. Use `make solution` to make all the steps.

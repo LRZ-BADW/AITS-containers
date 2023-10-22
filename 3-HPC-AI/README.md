@@ -12,4 +12,4 @@ In the question, we provide Dockerfile. You need to
 
 ## Solution
 
-In the solution, we provide a Makefile that includes all this steps and takes you to a running container that contains audio files to transcribe.
+In the solution, we provide a Makefile that includes all this steps and takes you to a running container that contains audio files to transcribe. Use `make solution` to make all the steps.

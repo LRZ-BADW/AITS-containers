@@ -1,5 +1,6 @@
 IMAGE := deepdream
 
+solution: build run
 build:
 	docker build . -t $(IMAGE)
 run:
