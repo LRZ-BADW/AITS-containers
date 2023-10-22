@@ -6,6 +6,8 @@ WORKDIR /opt/whisper.cpp
 RUN make
 
 FROM alpine:3
-RUN apk update; apk add --no-cache gcc ffmpeg
+RUN apk update; apk add --no-cache gcc
 COPY --from=builder /opt/whisper.cpp /opt/whisper.cpp
-ENTRYPOINT ["/opt/whisper.cpp/main"]
+RUN ln -s /opt/whisper.cpp/main /usr/bin/whisper
+WORKDIR /data
+ENTRYPOINT ["/bin/sh"]
