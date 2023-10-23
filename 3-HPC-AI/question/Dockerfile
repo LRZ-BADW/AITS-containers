@@ -8,5 +8,6 @@ RUN make
 FROM alpine:3
 RUN apk update; apk add --no-cache gcc
 COPY --from=builder /opt/whisper.cpp /opt/whisper.cpp
+RUN ln -s /opt/whisper.cpp/main /usr/local/bin/whisper
 WORKDIR /data
 ENTRYPOINT ["/bin/sh"]
