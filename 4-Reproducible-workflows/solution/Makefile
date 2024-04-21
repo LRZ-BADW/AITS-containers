@@ -1,4 +1,5 @@
 solution: clone nextflow pipeline serve
+
 clone:
 	git clone https://github.com/nextflow-io/rnaseq-nf.git
 nextflow:
