@@ -2,7 +2,9 @@
 
 ## Question
 
-In the Question, we provide a jupyter notebook. You need to build a Docker image that will allow us to run it. The entrypoint is provided for simplicity.
+In the Question, we provide a jupyter notebook. You need to build a container that will allow us to run it. The entrypoint is provided for simplicity.
+
+Hints:
 
 1. Install the dependecies: python3-dev python3-pip with `apt`
 1. Install the python dependencies with `pip`:

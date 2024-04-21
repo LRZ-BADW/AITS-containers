@@ -15,10 +15,13 @@ COPY requirements.txt /tmp/requirements.txt
 RUN pip3 install -r /tmp/requirements.txt
 
 # Load the notebook in the image
-COPY ./dream.ipynb /root/notebooks
-# Load the entrypoint in the image
-COPY entrypoint.sh /entrypoint.sh
+WORKDIR /root/notebooks
+COPY ./dream.ipynb /root/notebooks/dream.ipynb
+
 # Reference that we need to export port 8888
 EXPOSE 8888
+
+# Load the entrypoint in the image
+COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT [ "/entrypoint.sh" ]
