@@ -2,12 +2,12 @@
 
 ## Question
 
-In the question, we provide Dockerfile. You need to
+In the question, we provide a Dockerfile that will run whisper.cpp in a Docker container. You need to:
 
-1. Build the dockerfile
-1. Concert to enroot
+1. Build the Docker image from the Dockerfile
+1. Convert the image to enroot
 1. Create an enroot container
-1. Start it
+1. Start the enroot container
 1. You can convert speech to text
 
 ## Solution
