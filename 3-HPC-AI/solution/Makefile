@@ -9,6 +9,6 @@ convert:
 	if [ -f $(ENROOT_SQSH) ]; then rm -f $(ENROOT_SQSH); fi
 	enroot import --output $(ENROOT_SQSH) dockerd://$(DOCKER_TAG)
 create:
-	enroot create --force --name $(ENROOT_IMG) $(ENROOT_SQSH)
+	sudo enroot create --force --name $(ENROOT_IMG) $(ENROOT_SQSH)
 start:
-	enroot start --root --rw --mount /data:/data $(ENROOT_IMG)
+	sudo enroot start --rw --mount /data:/data $(ENROOT_IMG)
